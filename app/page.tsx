@@ -212,13 +212,6 @@ export default function Home() {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
-              <Link href="/dashboard">
-                <AnimatedButton size="lg" className="text-lg px-8 py-6">
-                  <Star className="w-5 h-5 mr-2" />
-                  Get Started
-                  <ArrowRight className="w-5 h-5 ml-2" />
-                </AnimatedButton>
-              </Link>
             </div>
           </motion.div>
         </div>

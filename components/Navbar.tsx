@@ -14,8 +14,6 @@ export default function Navbar() {
     { name: "Home", href: "/" },
     { name: "Create Token", href: "/create-token" },
     { name: "Create Pool", href: "/create-pool" },
-    { name: "Add Liquidity", href: "/add-liquidity" },
-    { name: "Dashboard", href: "/dashboard" },
   ];
 
   return (
@@ -37,7 +35,7 @@ export default function Navbar() {
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center space-x-8">
+          <div className="hidden md:flex items-center space-x-8 ml-2">
             {navItems.map((item) => (
               <Link
                 key={item.name}
